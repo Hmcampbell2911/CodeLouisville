@@ -1,24 +1,38 @@
-html {
-    color: blue;
-    font-size: 1em;
-    line-height: 1.4;
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  head{  
-    font-family: Georgia, Helvetica Neue, Arial;
-    font-size: 16px;
-    line-height: 26px;}
-  body {
-    font-family: Helvetica, Helvetica Neue, Arial;
-    font-size: 16px;
-    line-height: 26px;
-  }
-  
-  .wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
+
+h1{
+  color:rgb(252, 232, 214);
+  font-family:marker felt, fantasy;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom:10px;
+  padding:30px;
+  background-size: cover;
+}
+body{
+  background-color: rgb(252, 232, 214);
+  background-size: cover;
+}
+h2{
+  color:darkmagenta
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+}
+button {
+  border-radius: 12px;
+  width: 33%;
+  padding: 10px 24px;
+  background-color:palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: peachpuff;
+  font-size: 20px;
+  text-align:center;
+  margin-bottom:10px;
+}
+a{color:peachpuff;}
+a:link{text-decoration: none;}
+a:visited{color:peachpuff;}
+a:hover{color:white;}
