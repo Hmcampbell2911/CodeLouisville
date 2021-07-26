@@ -1,4 +1,3 @@
-
 h1{
   color:rgb(252, 232, 214);
   font-family:marker felt, fantasy;
@@ -9,7 +8,7 @@ h1{
   background-size: cover;
 }
 body{
-  background-color: rgb(252, 232, 214);
+  background-color: rgb(247, 238, 231);
   background-size: cover;
 }
 h2{
@@ -22,6 +21,7 @@ img {
   max-width: 40%;
 }
 button {
+  float:left;
   border-radius: 12px;
   width: 33%;
   padding: 10px 24px;
@@ -36,3 +36,20 @@ a{color:peachpuff;}
 a:link{text-decoration: none;}
 a:visited{color:peachpuff;}
 a:hover{color:white;}
+/*******************************
+    CSS Animations
+*******************************/
+@keyframes example{
+  from{text-size-adjust:initial;}
+  to{}
+
+}
+/*******************************
+      Media Queries
+*******************************/
+@media screen and (min-width: 600px) {
+  .button a {
+    float:none;
+    width: 100%;
+  }
+}
