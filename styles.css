@@ -1,7 +1,7 @@
 h1{
   color:rgb(252, 232, 214);
   font-family:marker felt, fantasy;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   margin-bottom:10px;
   padding:30px;
@@ -40,14 +40,20 @@ a:hover{color:white;}
     CSS Animations
 *******************************/
 @keyframes example{
-  from{text-size-adjust:initial;}
-  to{}
-
+  0% {text-transform: uppercase;}
+  25% {text-transform: capitalize;}
+  50% {text-transform: uppercase;}
+  75% {text-transform: capitalize;}
+  100% {text-transform: uppercase;}
+  }
+h1{
+  animation-name: example;
+  animation-duration:4s;
 }
 /*******************************
       Media Queries
 *******************************/
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .button a {
     float:none;
     width: 100%;
