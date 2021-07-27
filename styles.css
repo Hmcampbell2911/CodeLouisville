@@ -1,48 +1,62 @@
 h1{
   color:rgb(252, 232, 214);
   font-family:marker felt, fantasy;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin-bottom:10px;
-  padding:30px;
+  padding:40px;
   background-size: cover;
 }
 h2{
   font-family:marker felt, fantasy;
-  font-size: 50px;
+  font-size: 20px;
   text-align:left;
   margin-top:0px;
   margin-bottom:0px;
+  padding-top: 20px;
+  
 }
 ul{
   color:darkslategrey;
   font-family:Arial, Helvetica, sans-serif;
-  font-size:50px;
+  font-size:20px;
   margin: 0px;
+  text-align:left;
+  
 
 }
 p{
   color:darkslategrey;
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0px;
+  padding: 20px 25px 25px;
+
 }
 body{
   background-color: rgb(247, 238, 231);
   background-size: cover;
 }
 .flex-container {
-  display: flex;
+  display:flex;
+  color:darkslategrey;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+  margin: 0px;
+  padding: 20px 25px 25px;
 }
 .flex-child {
   flex: 1;
+  text-align:justify;
+  
 } 
 
 .flex-child:first-child {
   margin: 2px;
+  
 } 
 h2{
-  color:darkmagenta
+  color:darkmagenta;
 }
 img {
   display: block;
@@ -58,7 +72,7 @@ button {
   background-color:palevioletred;
   font-family: Arial, Helvetica, sans-serif;
   border-color: peachpuff;
-  font-size: 45px;
+  font-size: 20px;
   text-align:center;
   margin-bottom:10px;
 }
@@ -92,16 +106,12 @@ h1{
   }
   .flex-container {
     flex-direction: column;
+    padding:0px;
   }
 }
-@media only screen and (max-width:790px) {
+@media only screen and (min-width:800px) {
   .flex-child {
-    flex: 50%;
+    flex: 50%;  
   }
-
-  
+  .HelloWorld {font-size:60px;}
 }
-@media only screen and (min-width:790px) {
-  .HelloWorld {font-size:70px;}
-
-}  
