@@ -82,7 +82,8 @@ a:hover{color:white;}
 ********************************/
 .javascript{
   color:darkslategray;
-  display:block;}
+  display:block;
+  cursor: pointer;}
 .hidden{
   font-size: 15px;
 }
