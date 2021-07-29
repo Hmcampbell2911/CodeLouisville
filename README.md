@@ -4,4 +4,4 @@ In CSS, I used Flexbox to design the layout of the site and I also included a CS
 
 The JavaScript feature I chose to use was to toggle the list items under my bulleted lists.
 
-Although this was a frustrating class at times, I really enjoyed playing with the css features and learning how to join them all to make this great site that really feels like a good reflection of me!  Thanks for checking out my project!
+ I really enjoyed playing with the CSS features and learning how to join them all to make this great site that really feels like a good reflection of me!  Thanks for checking out my project!
